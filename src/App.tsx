@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from './Slider';
 import Logo from './Logo';
 import { SliderContextProvider } from './ContextManager';
+import LoggingComponent from './LoggingComponent';
 
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
           <Logo/>
           <Slider/>
         </SliderContextProvider>
+        <LoggingComponent/>
       </header>
     </div>
   );
